@@ -14,6 +14,33 @@ public class Dinosour extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        checkKeyPress();
+
     }    
+
+    /**
+     * Check wether a control key on the keyboard has been pressed 
+     */ 
+    public void checkKeyPress()
+    { 
+        if(Greenfoot.isKeyDown("up"))
+
+        {  
+           
+
+
+        }
+        // if (Greenfoot.isKeyDown("down"))
+        // {
+            // turn (50);  
+
+        // }  
+
+        
+        // if (Greenfoot.isKeyDown("left"))
+        // {
+            // turn(90);
+
+        // }
+    }
 }
