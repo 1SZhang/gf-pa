@@ -24,11 +24,14 @@ public class Dinosour extends Actor
     public void checkKeyPress()
     { 
         if(Greenfoot.isKeyDown("up"))
-
-        {  
-           
-
-
+        { 
+            getWorld().showText("jumping", 300, 300);
+            
+            setLocation(200, 578);
+        }
+        else
+        {
+            getWorld().showText("", 300, 300);            
         }
         // if (Greenfoot.isKeyDown("down"))
         // {
