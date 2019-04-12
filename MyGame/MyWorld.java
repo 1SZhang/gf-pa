@@ -22,6 +22,9 @@ public class MyWorld extends World
         // Set the initial time
         String initialTime = "Time: 0";
         showText(initialTime, 100, 50);
+        // Set the initial score
+        String currentScore = "Score: 0";
+        showText(currentScore, 700, 50);
 
         prepare();
     }

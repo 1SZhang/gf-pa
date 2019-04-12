@@ -27,23 +27,14 @@ public class Dinosour extends Actor
         { 
             getWorld().showText("jumping", 300, 300);
             
-            setLocation(200, 578);
+            setLocation(105, 578);
         }
         else
         {
+            setLocation(105,678);
+            
             getWorld().showText("", 300, 300);            
         }
-        // if (Greenfoot.isKeyDown("down"))
-        // {
-            // turn (50);  
-
-        // }  
-
         
-        // if (Greenfoot.isKeyDown("left"))
-        // {
-            // turn(90);
-
-        // }
     }
 }
