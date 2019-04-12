@@ -23,6 +23,7 @@ public class MyWorld extends World
         String initialTime = "Time: 0";
         showText(initialTime, 100, 50);
 
+        prepare();
     }
 
     public void act()
@@ -46,9 +47,13 @@ public class MyWorld extends World
         }
     }
 
-    // A new dinosour
-    private void addDinosour()
-    { Dinosour newDinosour = new Dinosour(); 
-
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Dinosour dinosour = new Dinosour();
+        addObject(dinosour,105,678);
     }
 }
